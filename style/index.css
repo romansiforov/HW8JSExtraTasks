@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 .blue {
     background-color: blue;
     transition: background-color 2s;
@@ -5,4 +8,30 @@
 
 .red {
     background-color: red;
+}
+
+#img {
+    width: 100%;
+    display: flex;
+}
+
+#img > img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.btn {
+    all: unset;
+    width: 150px;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 226, 226);
+    margin: 1rem;
+}
+
+.btn:hover {
+    background-color: aqua;
+    transition: background-color 1s;
 }

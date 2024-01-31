@@ -20,7 +20,7 @@ window.onload = () => {
         item.onclick = () => {
             item.classList.remove("red");
             item.classList.add("blue");
-            setTimeout( function(item) {item.remove();}, 2000);
+            setTimeout( () => {item.remove();}, 700);
         }
     });
 
